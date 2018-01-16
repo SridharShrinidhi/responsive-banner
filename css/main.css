@@ -1,0 +1,44 @@
+html {
+  font-family: Georgia, serif;
+  color: #fff;
+}
+
+header {
+  max-height: 500px;
+}
+
+main {
+  background-color: #495562;
+}
+
+.btn-ghost {
+  border: 3px solid #97a49b;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #fff;
+}
+
+.btn-ghost:hover {
+  border: 3px solid #fff;
+}
+
+@media only screen and (min-width: 20em) {
+
+  header {
+    background-color: #495562;
+  }
+
+  .btn-light {
+
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  main {
+    background-color: transparent;
+  }
+}
